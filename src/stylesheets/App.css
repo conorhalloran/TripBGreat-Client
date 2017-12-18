@@ -1,0 +1,240 @@
+.App {
+	background: url('../images/background.gif') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 1000px;
+	position: relative;
+	padding-bottom: 130px;
+	margin: 0;
+}
+
+.Main {
+	padding: 1rem;
+}
+
+.navBarHeader {
+	background: linear-gradient(black, transparent);
+}
+
+.logo {
+	height: 80px;
+}
+
+.DateRangePicker {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#triplinks {
+	color: #278a83 !important;
+	text-decoration: none !important;
+}
+#triplinks:hover {
+	color: #29bcb0 !important;
+	text-decoration: none !important;
+}
+
+.form-control {
+	background-color: rgba(255, 255, 255, 0.942);
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.764);
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	padding: 0.75rem;
+}
+
+.btn-info {
+	color: #fff !important;
+	border-color: #33dacd !important;
+	background-color: #33dacd !important;
+	margin-bottom: 5px;
+}
+.btn-info:hover {
+	color: #fff !important;
+	background-color: #29bcb0 !important;
+}
+
+.TripSummary {
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	background-color: rgba(255, 255, 255, 0.764);
+	padding: 0.5rem;
+	margin: 1rem;
+}
+
+.TripsList {
+	justify-content: center;
+}
+
+.TripButtons {
+	margin-top: 1rem;
+	justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100px;
+	background: linear-gradient(transparent, black);
+	color: white;
+	padding-top: 5px;
+}
+
+.footer-social-icons {
+	display: flex !important;
+	align-items: center;
+	justify-content: center !important;
+	margin: 0 auto;
+}
+.brand {
+	text-align: center;
+}
+
+.footer-social-icons p {
+	margin-top: 10px;
+}
+
+.footer_up {
+	position: relative;
+	padding: 0.5rem;
+	margin: 0px;
+	padding-top: 12px;
+	background-color: #293d52;
+	text-align: center;
+	color: #fff;
+	height: 6em;
+}
+
+.social-icon {
+	color: #fff;
+}
+
+ul.social-icons {
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+	height: 50px;
+}
+
+.social-icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-social-icons {
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+}
+
+.fa-facebook {
+	padding: 10px 14px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+	color: black;
+}
+
+.fa-twitter {
+	padding: 10px 12px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-twitter:hover {
+	background-color: #00aced;
+	color: black;
+}
+
+.fa-rss {
+	padding: 10px 14px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-rss:hover {
+	background-color: #eb8231;
+	color: black;
+}
+
+.fa-youtube {
+	padding: 10px 14px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-youtube:hover {
+	background-color: #e64a41;
+	color: black;
+}
+
+.fa-google-plus {
+	padding: 10px 9px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-google-plus:hover {
+	background-color: #e25714;
+	color: black;
+}
+
+.fa-linkedin {
+	padding: 10px 14px;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+.fa-linkedin:hover {
+	background-color: #0073a4;
+	color: black;
+}
+
+.linksstyle {
+	-moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
